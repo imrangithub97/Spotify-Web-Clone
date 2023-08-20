@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Website Clone</title>
+    <link rel="stylesheet" href="music.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@2008">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="spotifylogo.png">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Spotify Song's</li>
+            <button>Sign In</button>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text">
+            <h2>Music For Everyone</h2>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Khamoshiyan.jpeg">
+                <p>Khamoshiyan (Arijit Singh)</p>
+                <span id="length">4:30 <i id="1"  class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="EkdilEkjaan.jpeg">
+                <p>Ek Dil Ek Jaan - Padmavati</p>
+                <span id="length">4:30 <i id="2" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="bintedil.jpg">
+                <p>Binte Dil - Padmavati</p>
+                <span id="length">4:30 <i id="3" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="hawayein.jpeg">
+                <p>hawayein (Arijit Singh)</p>
+                <span id="length">4:30 <i id="4" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="lovemelikeyoudo.jpeg">
+                <p>Love Me Like You Do - Ellie Goulding</p>
+                <span id="length">4:30 <i id="5" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="pasoori.jpeg">
+                <p>Pasoori</p>
+                <span id="length">4:30 <i id="6" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="seekBar">
+        <input type="range" id="range" value="0" min="0" max="100">
+        <div class="content">
+            <img  id="gif" src="bit.gif">
+            <p id="songName">------</p>
+            <i id="masterBtn" class="fa-solid fa-circle-play"></i>
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+</body>
+
+</html>
